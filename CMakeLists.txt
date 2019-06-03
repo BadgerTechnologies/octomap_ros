@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 2.8)
 project(octomap_ros)
+set(CMAKE_CXX_STANDARD 11)
 
 find_package(catkin REQUIRED COMPONENTS octomap_msgs sensor_msgs tf)
 find_package(OCTOMAP REQUIRED)
