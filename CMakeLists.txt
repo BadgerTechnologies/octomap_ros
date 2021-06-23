@@ -1,6 +1,6 @@
-cmake_minimum_required(VERSION 2.8)
+cmake_minimum_required(VERSION 3.0.2)
 project(octomap_ros)
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 14)
 
 find_package(catkin REQUIRED COMPONENTS octomap_msgs roscpp sensor_msgs tf)
 find_package(OCTOMAP REQUIRED)
